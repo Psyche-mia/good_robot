@@ -35,8 +35,8 @@ Details of our specific training and test runs, command line commands, pre-train
 [Download CoppeliaSim](http://www.coppeliarobotics.com/index.html) (formerly V-REP) and run it to start the simulation. Uou may need to adjust the paths below to match your V-REP folder, and it should be run from the costar_visual_stacking repository directory:
 
 ```bash
-cd ~/src/real_good_robot
-~/src/CoppeliaSim_Edu_V4_0_0_Ubuntu18_04/coppeliaSim.sh -gREMOTEAPISERVERSERVICE_19997_FALSE_TRUE -s ~/src/real_good_robot/simulation/simulation.ttt
+cd ~/Projects20/good_robot
+~/RL/CoppeliaSim/coppeliaSim.sh -gREMOTEAPISERVERSERVICE_19997_FALSE_TRUE -s ~/Projects20/good_robot/simulation/simulation.ttt
 ```
 
 ### Cube Stacking
